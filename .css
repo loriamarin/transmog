@@ -1,0 +1,117 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+div {
+    text-align: justify;
+  }
+  
+.welcomebanner {
+    background-image: url('/Banners/Dragonflightbanner.png');
+    position: relative;
+    background-color: black;
+    height: auto;
+    max-width: 100%;
+    height: auto;
+  }
+
+.bannerimage {
+    width: 100%;
+    height: auto;
+}
+
+.bannertext-welcome {
+    position: absolute;
+    top: 20%;
+    padding: 30px;
+    width: 100%;
+    text-shadow: 2px 2px 5px #1b2d38;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 35px;
+    color: bisque;
+    margin-bottom: 5px;
+}
+
+/*Navigation Bar*/
+
+.navigation {
+    color:bisque;
+    text-align: left;
+    padding-left: 15px;
+    text-shadow: 2px 2px 5px #55968f;
+}
+
+.searchbar {
+
+}
+
+/*links*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 2px;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: lightsteelblue;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #55968f;
+  }
+
+/*Body of the page*/
+.article {
+    color: #55968f;
+    background-color: #1b2d38;
+    text-align: center;
+    padding: 0 20px;
+    float: left;
+    width: 100%;
+}
+
+/* Logos */
+.legionlogo {
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.legionlogo:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
+.battleforazerothlogo {
+    width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.battleforazerothlogo:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.dragonflightlogo {
+    width: 360px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dragonflightlogo:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+/*For Mobile*/
+@media only screen and (max-width: 620px) {
+    .navigation, .article, .footer {
+        width: 100%;
+    }
+}
